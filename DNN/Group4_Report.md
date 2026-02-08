@@ -263,22 +263,29 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 - Convergence after ~100-150 epochs
 
 **Test Performance:**
-- Test Accuracy: 75-78%
-- Precision (diabetes class): 70-72%
-- Recall (diabetes class): 58-62%
-- F1-Score: 63-66%
+
+Accuracy      = (TP + TN) / Total
+              = (28 + 82) / 154 ≈ 0.714 (71.4%)
+
+Precision(1)  = TP / (TP + FP)
+              = 28 / (28 + 18) ≈ 0.609 (60.9%)
+
+Recall(1)     = TP / (TP + FN)
+              = 28 / (28 + 26) ≈ 0.519 (51.9%)
+
+F1-score(1)   = 2 * (Precision * Recall) / (Precision + Recall)
+              ≈ 0.56 (56%)
+
 
 **Confusion Matrix Analysis:**
-```
-                 Predicted
-                No    Yes
-Actual  No     [90    20]
-        Yes    [15    29]
-```
-- True Negatives: ~90 (correctly identified non-diabetic)
-- True Positives: ~29 (correctly identified diabetic)
-- False Positives: ~20 (healthy flagged as diabetic)
-- False Negatives: ~15 (diabetic missed)
+
+From your confusion matrix:
+	•	True Negative (TN) = 82 (Actual 0, Predicted 0)
+	•	False Positive (FP) = 18 (Actual 0, Predicted 1)
+	•	False Negative (FN) = 26 (Actual 1, Predicted 0)
+	•	True Positive (TP) = 28 (Actual 1, Predicted 1)
+
+
 
 **Key Observations:**
 1. **Class Imbalance:** Dataset has more non-diabetic cases (bias toward majority)
