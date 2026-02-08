@@ -368,11 +368,11 @@ This assignment successfully implemented linear neural networks from scratch for
 5. **Model Limitations:** Recognized when linear models are sufficient vs. when non-linear approaches are needed
 
 **Assignment Objectives Achieved:**
-- âœ… Understood regression and classification from first principles
-- âœ… Implemented gradient descent optimization (batch and SGD)
-- âœ… Built neural networks without high-level libraries
-- âœ… Evaluated and compared machine learning models
-- âœ… Analyzed computational trade-offs in model selection
+- [-] Understood regression and classification from first principles
+- [-] Implemented gradient descent optimization (batch and SGD)
+- [-] Built neural networks without high-level libraries
+- [-] Evaluated and compared machine learning models
+- [-] Analyzed computational trade-offs in model selection
 
 **Practical Impact:**
 - Insurance regression model can estimate costs within $6,000 RMSE
@@ -404,21 +404,3 @@ This foundation prepares us for deeper neural networks with hidden layers, non-l
 - Hyperparameter tuning experiments
 - Comparative analysis of GD variants
 - Final notebook cleanup and submission preparation
-
----
-
-## References
-
-1. Kaggle Dataset: Medical Cost Personal Datasets - https://www.kaggle.com/datasets/mirichoi0218/insurance
-2. Kaggle Dataset: Pima Indians Diabetes Database - https://www.kaggle.com/datasets/mathchi/diabetes-data-set
-3. Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
-4. Bishop, C. M. (2006). Pattern Recognition and Machine Learning. Springer.
-5. Murphy, K. P. (2012). Machine Learning: A Probabilistic Perspective. MIT Press.
-
----
-
-**Course:** Deep Neural Networks  
-**Assignment Type:** Group Programming  
-**Format:** Jupyter Notebook (.ipynb)  
-**Submission Date:** [Your Date]  
-**Group ID:** [Your Group ID]
