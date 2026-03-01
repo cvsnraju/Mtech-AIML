@@ -2,3 +2,23 @@
 *.zip
 DNN_AllFiles_Compressed.7z
 DNN.zip
+
+
+ # macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+*/venv/
+
+# Data / datasets (top-level in this repo)
+DNN/data/
+DNN/kagglecatsanddogs_5340/
+DNN/kaggle-dataset/
